@@ -31,6 +31,11 @@ def initial_round
   sum
 end
 
+def invalid_command
+  puts "Please enter a valid command"
+  prompt_user
+end
+
 def hit?(total)
   prompt_user
   user_input = get_user_input
